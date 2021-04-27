@@ -1,0 +1,732 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <title>Exhibition - KPR BCA OnlinEXPO 2020</title>
+
+  <!-- load CSS -->
+  <link rel="stylesheet" type="text/css" href="/assets/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/slick-theme.css" />
+  <link href="/assets/css/home.css" rel="stylesheet" type="text/css" />
+
+  <!-- ERVAN's NEW CSS : you can copy all the app.css to the home.css or as needed -->
+  <link href="/assets/css/app.css" rel="stylesheet" type="text/css" />
+  <link href="/assets/css/new.css" rel="stylesheet" type="text/css" />
+  <!-- also note there is app.scss as the source css, please avoid editing the app.css directly -->
+
+  <!-- Load Javascript -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.js"></script>
+
+
+  <!-- Load font -->
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+
+    <!-- SOME HEADER AND MAIN MENU ADJUSTMENT -->
+    <header id="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-3">
+            <div class="logo">
+              <img src="/assets/images/logo_bca_blue-1.png" alt="BCA">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-9">
+            <div id="mainmenu">
+              <ul>
+                <li class="active"><a href="/home">Home</a></li>
+                <li><a href="">Exhibition Hall</a></li>
+                <li><a href="/event">Live Event</a></li>
+                <li><a href="https://rumahsaya.bca.co.id/#/simulasi" target="_blank">Simulasi KPR</a></li>
+                <li class="last"><a href="https://webform.bca.co.id/KPR/?prev=/KPR/Screening-eForm-KPR" target="_blank"
+                    class="button btn btn-warning">Ajukan KPR</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END SOME HEADER AND MAIN MENU ADJUSTMENT -->
+
+    <!-- ADD MOBILE MENU -->
+    <div class="mobile-menu">
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-home.png" alt=""></span>
+          <span class="text">Home</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-search.png" alt=""></span>
+          <span class="text">Exhibition Hall</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-event.png" alt=""></span>
+          <span class="text">Event</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-simulasi.png" alt=""></span>
+          <span class="text">Simulasi KPR</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-eform.png" alt=""></span>
+          <span class="text">E-form</span>
+        </a>
+      </div>
+    </div>
+    <!-- END MOBILE MENU -->
+
+
+    <!-- START EXHIBITION PAGE -->
+    <div class="exhibition-landing">
+      <div class="exhibition-container" id="exhibition-container">
+
+      </div>
+      <div class="exhibition-button-container">
+        <!-- <a href="#" class="button">Contoh, klik di sini</a> -->
+      </div>
+
+
+      <div class="exhibition-list-view-container">
+        <div class="list-view-container">
+
+          <button class="button btn-close-list-view">&times;</button>
+          <div class="list-view-box">
+
+            <div class="lv-filter">
+              <select name="exhibition-area" id="exhibition-area">
+                <option value="">Area</option>
+                <option value="jkt">Jakarta</option>
+                <option value="sby">Surabaya</option>
+                <option value="bks">Bekasi</option>
+              </select>
+              <select name="exhibition-price" id="exhibition-price">
+                <option value="">Harga</option>
+                <option value="jkt">
+                  < 100Mio</option>
+                <option value="sby">100 - 500Mio</option>
+                <option value="bks">> 500Mio</option>
+              </select>
+              <a href="#" class="button btn-submit">Cari developer atau project</a>
+            </div>
+
+            <div class="lv-content">
+              <div class="lv-header lv-section">
+                <h3>Grup BCA & Broker</h3>
+                <ul class="list-developer-items">
+                  <li><a href="#"><img src="images/grup-bca.png"></a></li>
+                  <li><a href="#"><img src="images/grup-bca.png"></a></li>
+                </ul>
+              </div>
+
+              <div class="lv-developer-list lv-section">
+                <h3>Developer</h3>
+                <ul class="list-developer-items">
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/sinarmas.png" alt=""></a></li>
+                </ul>
+              </div>
+
+              <div class="lv-project-list lv-section">
+                <h3>Project Developer</h3>
+                <div class="list-project-developer">
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="project-item">
+                      <div class="project-image">
+                        <img src="images/project2.png" alt="">
+                      </div>
+                      <div class="project-description">
+                        <h4>The Zora</h4>
+                        <h5>BSD City, Tangerang</h5>
+                        <h6>Start from Rp. 1.1M</h6>
+                      </div>
+                      <a href="#" class="project-link">The Zora</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <button class="button btn-list-view">
+        <span class="icon"><img src="images/arrow-white.png" alt=""></span>
+        <span class="text">List View</span>
+      </button>
+    </div>
+    <!-- END EXHIBITION PAGE -->
+
+    <!-- CUSTOM INTERACTION EXHIBITION PAGE -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://unpkg.com/konva@7.0.6/konva.min.js"></script>
+    <script>
+
+      var width = window.innerWidth;
+      var height = window.innerHeight;
+      var isMobile = width > height ? false : true;
+      var newHeight = isMobile ? height - 60 : height;
+      var newWidth = (2560 * newHeight) / 1440;
+
+      var stage = new Konva.Stage({
+        container: 'exhibition-container',
+        width: width,
+        height: newHeight,
+      });
+
+      var layer = new Konva.Layer();
+
+      var mX = newWidth / 2560;
+      var mY = newHeight / 1440;
+
+      var grup = new Konva.Group({
+        x: ((newWidth - width) / 2) * -1,
+        y: 0,
+        draggable: true,
+        dragBoundFunc: function (pos) {
+          var minX = width - newWidth;
+          var minY = newHeight;
+          var newX = pos.x <= minX ? minX : pos.x >= 0 ? 0 : pos.x;
+          var newY = 0;
+          return {
+            x: newX,
+            y: newY,
+          };
+        },
+      });
+
+      // START CREATE OBJECT AND EVENTS
+
+      // Booth Abdael Nusa
+      var booth1 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [936 * mX, 238 * mY, 1220 * mX, 303 * mY, 1230 * mX, 443 * mY, 1110 * mX, 596 * mY, 850 * mX, 530 * mY],
+        closed: true,
+      });
+      booth1.on('tap click', function () {
+        window.location.href = '/developer.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // Booth 2
+      var booth2 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [1326 * mX, 323 * mY, 1624 * mX, 395 * mY, 1624 * mX, 535 * mY, 1510 * mX, 705 * mY, 1230 * mX, 630 * mY],
+        closed: true,
+      });
+      booth2.on('tap click', function () {
+        window.location.href = '/developer-detail.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // Booth 3
+      var booth3 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [1716 * mX, 425 * mY, 2036 * mX, 497 * mY, 2018 * mX, 634 * mY, 1926 * mX, 806 * mY, 1630 * mX, 730 * mY],
+        closed: true,
+      });
+      booth3.on('tap click', function () {
+        window.location.href = '/developer.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // Booth 4
+      var booth4 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [2160 * mX, 520 * mY, 2500 * mX, 600 * mY, 2468 * mX, 744 * mY, 2390 * mX, 929 * mY, 2074 * mX, 844 * mY],
+        closed: true,
+      });
+      booth4.on('tap click', function () {
+        window.location.href = '/developer.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // Booth 5
+      var booth5 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [690 * mX, 523 * mY, 988 * mX, 601 * mY, 1002 * mX, 744 * mY, 869 * mX, 919 * mY, 589 * mX, 841 * mY],
+        closed: true,
+      });
+      booth5.on('tap click', function () {
+        window.location.href = '/developer.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // Booth 6
+      var booth6 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [1095 * mX, 630 * mY, 1411 * mX, 713 * mY, 1414 * mX, 854 * mY, 1292 * mX, 1039 * mY, 997 * mX, 956 * mY],
+        closed: true,
+      });
+      booth6.on('tap click', function () {
+        window.location.href = '/developer.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // Booth 7
+      var booth7 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [1510 * mX, 734 * mY, 1845 * mX, 825 * mY, 1840 * mX, 970 * mY, 1730 * mX, 1168 * mY, 1420 * mX, 1078 * mY],
+        closed: true,
+      });
+      booth7.on('tap click', function () {
+        window.location.href = '/developer.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // Booth 8
+      var booth8 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [1978 * mX, 860 * mY, 2336 * mX, 953 * mY, 2313 * mX, 1097 * mY, 2220 * mX, 1302 * mY, 1886 * mX, 1209 * mY],
+        closed: true,
+      });
+      booth8.on('tap click', function () {
+        window.location.href = '/developer.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // Booth 9
+      var booth9 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [436 * mX, 819 * mY, 749 * mX, 911 * mY, 772 * mX, 1051 * mY, 621 * mX, 1249 * mY, 326 * mX, 1159 * mY],
+        closed: true,
+      });
+      booth9.on('tap click', function () {
+        window.location.href = '/developer.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // Booth 10
+      var booth10 = new Konva.Line({
+        fill: 'rgba(255,255,255,.1)',
+        opacity: 0,
+        points: [862 * mX, 938 * mY, 1192 * mX, 1033 * mY, 1209 * mX, 1181 * mY, 1069 * mX, 1391 * mY, 759 * mX, 1296 * mY],
+        closed: true,
+      });
+      booth10.on('tap click', function () {
+        window.location.href = '/developer.html'
+        // alert('REDIRECT TO HALL AGUNG')
+      })
+
+      // DONE CREATE OBJECT AND EVENTS
+
+      var imageObj = new Image();
+      imageObj.onload = function () {
+        var hallAgung = new Konva.Image({
+          x: 0,
+          y: 0,
+          image: imageObj,
+          width: newWidth,
+          height: newHeight,
+        });
+
+        // add the shape to the layer
+        booth1.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth1.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+        booth2.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth2.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+        booth3.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth3.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+        booth4.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth4.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+        booth5.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth5.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+        booth6.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth6.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+        booth7.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth7.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+        booth8.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth8.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+        booth9.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth9.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+        booth10.on('mouseenter', function () {
+          stage.container().style.cursor = "pointer";
+          this.opacity(1);
+          layer.draw();
+        })
+        booth10.on('mouseleave', function () {
+          stage.container().style.cursor = "default";
+          this.opacity(0);
+          layer.draw();
+        })
+
+        // add hall background
+        grup.add(hallAgung);
+
+        // add booth objects
+        grup.add(booth1);
+        grup.add(booth2);
+        grup.add(booth3);
+        grup.add(booth4);
+        grup.add(booth5);
+        grup.add(booth6);
+        grup.add(booth7);
+        grup.add(booth8);
+        grup.add(booth9);
+        grup.add(booth10);
+
+        layer.add(grup);
+        layer.batchDraw();
+      };
+      imageObj.src = 'images/HALL-A.jpg';
+
+      // add the layer to the stage
+      stage.add(layer);
+    </script>
+    <script type="text/javascript">
+      $(document).on('ready', function () {
+        $('.btn-close-list-view').on('click', function (e) {
+          e.preventDefault();
+          $('.exhibition-list-view-container').removeClass('active');
+          $('.btn-list-view').removeClass('active');
+          $('.btn-list-view').find('.text').text('List View');
+        })
+        $('.btn-list-view').on('click', function (e) {
+          e.preventDefault();
+          $(this).toggleClass('active');
+          $('.exhibition-list-view-container').toggleClass('active');
+          var btnActive = $(this).hasClass('active');
+          if (btnActive) {
+            $(this).find('.text').text('Exhibition View')
+          } else {
+            $(this).find('.text').text('List View')
+          }
+        })
+      });
+    </script>
+    <!-- END INTERACTION EXHIBITION PAGE -->
+
+  </div>
+</body>
+
+</html>

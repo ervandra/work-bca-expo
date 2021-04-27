@@ -1,0 +1,950 @@
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 13px; */
+}
+
+@font-face {
+    font-family: "SegoeUI";
+    src: url('../fonts/SegoeUI.TTF');
+}
+
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url('../fonts/SegoeUIBold.ttf');
+}
+
+:focus {
+    outline: none;
+}
+
+.black {
+    color: #000000;
+}
+
+.orange {
+    color: #FF9821;
+}
+
+.blue {
+    color: #1473E6;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-100 {
+    padding-top: 100px;
+}
+
+.clear {
+    clear: both;
+}
+
+.height-padding {
+    height: 50px;
+}
+
+/*
+ * HOME MENU
+ */
+#home-menu {
+    margin: 0;
+    padding: 15px 0 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background-image: url('../images/bar.png');
+    background-repeat: repeat-x;
+}
+
+#home-menu-blue {
+    margin: 0;
+    padding: 15px 0 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 2px 21px -4px rgba(148, 148, 148, 1);
+    -moz-box-shadow: 0px 2px 21px -4px rgba(148, 148, 148, 1);
+    box-shadow: 0px 2px 21px -4px rgba(148, 148, 148, 1);
+}
+
+.home-menu-background,
+.home-menu-background-blue {
+    margin: 0 Auto;
+    width: 1120px;
+}
+
+.home-menu-background ul {
+    margin: 0;
+    padding: 15px 0 0 0;
+    text-align: right;
+    list-style: none;
+}
+
+.home-menu-background-blue ul {
+    margin: 0;
+    padding: 5px 0 0 0;
+    text-align: right;
+    list-style: none;
+}
+
+.home-menu-background ul li,
+.home-menu-background-blue ul li {
+    display: inline-flex;
+    padding: 0 0 0 60px;
+    font-size: 15px;
+}
+
+.home-menu-background ul li a {
+    color: #ffffff;
+}
+
+.home-menu-background-blue ul li a {
+    color: #005FAF;
+}
+
+.home-menu-background ul li a:hover {
+    text-decoration: none;
+    background-image: url('../images/hover-line.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.home-menu-background-blue ul li a:hover {
+    text-decoration: none;
+    background-image: url('../images/hover-line-blue.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.home-menu-background ul li.last a:hover,
+.home-menu-background-blue ul li.last a:hover {
+    background: none;
+}
+
+.home-menu-background button,
+.home-menu-background-blue button {
+    background-color: #FF9204;
+    padding: 3px 25px 4px 25px;
+    border: none;
+    border-radius: 14px;
+    color: #ffffff
+}
+
+/*
+ * BANNER POSITION
+ */
+#banner-home {
+    position: relative;
+}
+
+.banner-home-backgrond {
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.banner-home-backgrond h1 {
+    text-align: center;
+    color: #ffffff;
+    padding: 25% 0 0 0;
+    font-family: "Montserrat";
+    font-weight: bold;
+    -moz-text-shadow: 0px 0px 10px #000000;
+    -webkit-text-shadow: 0px 0px 10px #000000;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+/*
+ * DEVELOPER AREA
+ */
+.home-developer {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+}
+
+.home-developer-content {
+    margin: 0 auto;
+    width: 1280px;
+    padding: 17px 0;
+    text-align: center;
+}
+
+.home-developer-content ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+}
+
+.home-developer-content ul li {
+    margin: 0;
+    padding: 10px;
+}
+
+.home-developer-content ul li img {
+    filter: grayscale(100%);
+}
+
+/*
+ * PROMO
+ */
+#home-promo {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+}
+
+.home-promo-slider {
+    margin: 0;
+    padding: 50px 0 30px 0;
+}
+
+.promo-page {
+    margin: 0;
+    padding: 70px 0 0 0;
+}
+
+.promo-content {
+    padding: 20px 0 20px 10px;
+    margin: 0 Auto;
+    width: 1100px;
+}
+
+.promo-content h1 {
+    margin: 10px 0 0 10px;
+    padding: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.promo-content ul {
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.promo-content ul li {
+    margin: 15px 10px;
+    padding: 0;
+    width: 250px;
+    display: block;
+    float: left;
+    border-radius: 10px;
+}
+
+.promo-content-content {
+    border: solid 1px #707070;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.promo-content-content h3 {
+    margin: 10px 0 5px 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.promo-content-content {
+    font-size: 11px;
+
+}
+
+.promo-notes,
+.promo-expired,
+.promo-term {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.promo-show-hide {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.promo-show-hide:hover {
+    opacity: 0.8;
+}
+
+.show-more-height {
+    height: 105px;
+    overflow: hidden;
+}
+
+.text {
+    position: relative;
+    display: block;
+}
+
+.promo-pagination {
+    margin: 0 Auto;
+    width: 1100px;
+}
+
+.show-hide-class {
+    z-index: 99;
+    position: absolute;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+.promo-url {
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-weight: bold;
+}
+
+.promo-url a {
+    color: #005FAF;
+}
+
+.promo-url a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+
+/*
+ * EVENT AREA
+ */
+#home-event {
+    margin: 0;
+    padding: 0;
+}
+
+.list-event {
+    padding: 50px 0 0 0;
+}
+
+.home-event-content {
+    margin: 0 Auto;
+    width: 1100px;
+}
+
+.home-event-content h1 {
+    margin: 0 0 5px 0;
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000
+}
+
+.home-event-content-live {
+    padding: 50px 0 0 0;
+}
+
+.home-event-content-live h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.home-event-content-live h2 a {
+    color: #ffffff;
+}
+
+.home-event-content-live h2 a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.home-event-content-top {
+    margin: 40px 0 0px 0;
+}
+
+.home-event-content-top h2,
+.home-event-content-bottom h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.home-event-content-top h2 a {
+    color: #ffffff;
+}
+
+.home-event-content-top h2 a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.home-event-middle {
+    margin: 30px 0 0 0;
+}
+
+.home-event-top-right ul,
+.home-event-top-right2 ul {
+    margin: 10px 0 30px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.home-event-top-right ul li {
+    display: inline-flex;
+    margin: 0 15px 0 0;
+    padding: 0px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.home-event-top-right2 ul li {
+    display: inline-flex;
+    margin: 0 15px 0 0;
+    padding: 0px;
+    width: 257px;
+    border-radius: 10px;
+}
+
+.home-event-top-right ul li.purple,
+.home-event-top-right2 ul li.purple {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5f49f4+0,c65ffa+100 */
+    background: #5f49f4;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #5f49f4 0%, #c65ffa 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #5f49f4 0%, #c65ffa 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #5f49f4 0%, #c65ffa 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f49f4', endColorstr='#c65ffa', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.home-event-top-right ul li.pink,
+.home-event-top-right2 ul li.pink {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d941ea+0,fec938+100 */
+    background: #d941ea;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #d941ea 0%, #fec938 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #d941ea 0%, #fec938 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #d941ea 0%, #fec938 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d941ea', endColorstr='#fec938', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.home-event-top-right ul li:hover,
+.home-event-top-right2 ul li:hover {
+    opacity: 0.8;
+}
+
+.home-event-top-right ul li a:hover,
+.home-event-top-right2 ul li a:hover {
+    text-decoration: none;
+}
+
+.home-event-content-bottom ul {
+    margin: 10px 0 50px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.home-event-content-bottom ul li {
+    display: inline-flex;
+    margin: 0 15px 0 0;
+    padding: 0px;
+    width: 257px;
+    border-radius: 10px;
+    background: #1e8dff;
+    background: -moz-linear-gradient(-45deg, #1e8dff 0%, #60efff 100%);
+    background: -webkit-linear-gradient(-45deg, #1e8dff 0%, #60efff 100%);
+    background: linear-gradient(135deg, #1e8dff 0%, #60efff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e8dff', endColorstr='#60efff', GradientType=1);
+}
+
+.home-event-content-bottom ul li:hover {
+    opacity: 0.8;
+}
+
+.home-event-content-bottom ul li a:hover {
+    text-decoration: none;
+}
+
+.event-content-bottom-images {
+    padding: 15px;
+    -moz-box-shadow: inset 0 -25px 25px -25px #5BE8FF;
+    -webkit-box-shadow: inset 0 -25px 25px 25px #5BE8FF;
+    box-shadow: inset 0 -25px 25px -25px #5BE8FF;
+    border-radius: 10px;
+}
+
+.event-content-bottom-images p {
+    padding-top: 10px;
+}
+
+.event-content-top-images-1 {
+    padding: 20px;
+    -moz-box-shadow: inset 0 -25px 25px -25px #BA5CF9;
+    -webkit-box-shadow: inset 0 -25px 25px 25px #BA5CF9;
+    box-shadow: inset 0 -25px 25px -25px #BA5CF9;
+    border-radius: 10px;
+}
+
+.event-content-top-images-2 {
+    padding: 20px;
+    -moz-box-shadow: inset 0 -25px 25px -25px #FBBE47;
+    -webkit-box-shadow: inset 0 -25px 25px 25px #FBBE47;
+    box-shadow: inset 0 -25px 25px -25px #FBBE47;
+    border-radius: 10px;
+}
+
+.event-content-top-images-1 p,
+.event-content-top-images-2 p {
+    padding-top: 15px;
+}
+
+.event-content-speaker-top {
+    color: #ffffff;
+    padding-top: 32px;
+    font-size: 10px;
+}
+
+.event-content-speaker-top h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.event-content-speaker-middle {
+    color: #ffffff;
+    padding-top: 32px;
+    font-size: 14px;
+}
+
+.event-content-speaker-middle h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.event-content-speaker {
+    color: #ffffff;
+}
+
+.event-live-event {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#46f1f8+0,005b97+100 */
+    background: #46f1f8;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #46f1f8 0%, #005b97 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #46f1f8 0%, #005b97 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #46f1f8 0%, #005b97 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#46f1f8', endColorstr='#005b97', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.event-live-event .event-live-background {
+    padding: 30px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+.event-live {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#46f1f8+0,005b97+100 */
+    background: #46f1f8;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #46f1f8 0%, #005b97 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #46f1f8 0%, #005b97 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #46f1f8 0%, #005b97 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#46f1f8', endColorstr='#005b97', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.event-live-background {
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+}
+
+.event-live-tag ul {
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.event-live-tag ul li {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 2px 17px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Rubik";
+    color: #005FAF;
+}
+
+.event-live-schedule {
+    padding: 25px 0 0 0;
+}
+
+.event-live-schedule p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.event-live-schedule button {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8f36e+0,f6cb1e+100 */
+    background: #f8f36e;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #f8f36e 0%, #f6cb1e 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #f8f36e 0%, #f6cb1e 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #f8f36e 0%, #f6cb1e 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f36e', endColorstr='#f6cb1e', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    color: #005FAF;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px 15px 3px 15px;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.event-live-schedule button:hover {
+    opacity: 0.8;
+}
+
+.event-live-info {
+    padding: 20px 0 0 0;
+}
+
+/*
+ * Call Action 1 Area
+ */
+#call-action-1 {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+}
+
+.call-action-1-content {
+    padding: 90px 0 100px 0;
+    text-align: center;
+}
+
+.call-action-1-content h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.call-action-1-content p {
+    margin: 15px 0 10px 0;
+    color: #666666;
+    font-family: "Open Sans";
+}
+
+.call-action-1-content button.blue {
+    background-color: #1473E6;
+    color: #ffffff;
+    border: none;
+    padding: 6px 0;
+    width: 150px;
+}
+
+.call-action-1-content button.orange {
+    background-color: #FF9821;
+    color: #ffffff;
+    border: none;
+    padding: 6px 0;
+    width: 150px;
+}
+
+.call-action-1-content ul {
+    margin: 15px 0 0 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+}
+
+.call-action-1-content ul li {
+    margin: 0 5px;
+}
+
+/*
+ * Call Action 2 AREA
+ */
+#call-action-2 {
+    margin: 0;
+    padding: 0;
+    background-color: #1473E6;
+}
+
+.call-action-2-content {
+    padding: 70px 0 70px 0;
+    text-align: center;
+}
+
+.call-action-2-content h1 {
+    margin: 0 0 50px 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.action-2-content-container {
+    margin: 0 Auto;
+    width: 1000px;
+}
+
+.action-2-content-container p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.action-2-content-container button {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    width: 170px;
+    border-radius: 20px;
+    color: #005FAF;
+    font-size: 14px;
+}
+
+.action-2-contact-us .modal-body {
+    text-align: left;
+    font-size: 13px;
+    padding: 0 30px 10px 30px;
+}
+
+.action-2-contact-us .modal-body select,
+.action-2-contact-us .modal-body input[type="text"] {
+    font-size: 12px;
+    padding: 10px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.action-2-contact-us .modal-content {
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+
+.action-2-contact-us .modal-header {
+    display: block;
+    border-bottom: 0;
+}
+
+.action-2-contact-us .modal-header .close {
+    position: relative;
+    margin-top: -52px;
+    margin-left: 0;
+    margin-right: 7px;
+    opacity: 1;
+    color: #ff0000;
+    background: none;
+    width: 0;
+    font-size: 30px;
+    padding: 0;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.action-2-contact-us button.button-blue {
+    background-color: #005FAF;
+    padding: 10px 15px;
+    border: none;
+    width: 170px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.ui-autocomplete-input {
+    border: none;
+    font-size: 14px;
+    width: 300px;
+    height: 24px;
+    margin-bottom: 5px;
+    padding-top: 2px;
+    border: 1px solid #DDD !important;
+    padding-top: 0px !important;
+    z-index: 1511;
+    position: relative;
+}
+
+.ui-menu .ui-menu-item a {
+    font-size: 12px;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1510 !important;
+    float: left;
+    display: none;
+    min-width: 160px;
+    width: 160px;
+    padding: 4px 0;
+    margin: 2px 0 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border-color: #ccc;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+}
+
+.ui-menu-item>a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.ui-state-hover,
+.ui-state-active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0088cc;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    background-image: none;
+}
+
+/*
+ * FOOTER AREA
+ */
+#footer {
+    background-color: #005FAF;
+    padding: 30px 0 0px 0;
+}
+
+.footer-top {
+    margin: 0 Auto;
+    width: 1024px;
+    color: #ffffff;
+    font-family: "SegoeUI";
+    padding: 0 0 20px 0;
+}
+
+.footer-top table {
+    margin: 0 0 0 15px;
+    padding: 0;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.footer-top table td {
+    padding-right: 5px;
+}
+
+.footer-address p {
+    margin: 0;
+    padding: 10px 0px 20px 15px;
+}
+
+.footer-top h4 {
+    margin: 0;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "SegoeUIBold";
+}
+
+.footer-social-media,
+.footer-menu,
+.footer-about {
+    padding-top: 60px;
+}
+
+.footer-bottom {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-bottom ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+}
+
+.footer-bottom ul li {
+    padding: 0 20px 0 0;
+    font-size: 14px;
+    font-family: "Nunito";
+}
+
+.footer-item ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style: none;
+}
+
+.footer-item ul li {
+    padding: 2px 0;
+}
+
+.footer-item ul li a {
+    color: #ffffff;
+}
+
+.footer-item ul li a:hover {
+    color: #cccccc;
+    text-decoration: none;
+}

@@ -1,0 +1,309 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <title>KPR BCA OnlinEXPO 2020</title>
+
+  <!-- load CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css" />
+
+  <!-- add font awesome css for icons -->
+  <link href="assets/css/fontawesome.css" rel="stylesheet" type="text/css" />
+
+  <!-- <link href="assets/css/home.css" rel="stylesheet" type="text/css" /> -->
+
+  <!-- ERVAN's NEW CSS : you can copy all the app.css to the home.css or as needed -->
+  <!-- <link href="/assets/css/app.css" rel="stylesheet" type="text/css" />
+  <link href="/assets/css/new.css" rel="stylesheet" type="text/css" /> -->
+  <link href="/assets/css/onboarding.css" rel="stylesheet" type="text/css" />
+  <link href="/assets/css/new-onboarding.css" rel="stylesheet" type="text/css" />
+  <!-- also note there is app.scss as the source css, please avoid editing the app.css directly -->
+
+  <!-- Load Javascript -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+
+
+  <!-- Load font -->
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div id="onboarding-container">
+    <div id="onboarding-content">
+      <div class="onboarding-logo">
+        <img src="http://54.251.28.247/assets/images/logo_bca_white.png" width="100px" />
+      </div>
+      <div class="onboarding-slider">
+        <div id="carouselExampleSlide" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="expo-carousel">
+                <div class="slider-text-images">
+                  &nbsp;&nbsp;
+                </div>
+
+                <img src="http://54.251.28.247/media/onboarding_slider/571327banner_on_boarding-1.png" height="295px" />
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="expo-carousel">
+                <div class="slider-text-images">
+                  &nbsp;&nbsp;
+                </div>
+
+                <img src="http://54.251.28.247/media/onboarding_slider/714936banner_on_boarding-2.png" height="295px" />
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="expo-carousel">
+
+                <div class="slider-text-images">
+                  &nbsp;&nbsp;
+                </div>
+
+                <img src="http://54.251.28.247/media/onboarding_slider/972024banner_on_boarding-3.png" height="295px" />
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="expo-carousel">
+
+                <div class="slider-text-images">
+                  &nbsp;&nbsp;
+                </div>
+
+                <img src="http://54.251.28.247/media/onboarding_slider/129900banner_on_boarding-4.png" height="295px" />
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="expo-carousel">
+
+                <div class="slider-text-images">
+                  test
+                </div>
+
+                <img src="images/slider-1.png" height="295px" />
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleSlide" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleSlide" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="onboarding-registration">
+
+        <div>
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-up" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+          </svg>
+        </div>
+        <button name="button" type="button" id="animate">Masuk Sekarang</button>
+      </div>
+    </div>
+    <div class="modal-form ">
+      <div class="modal-form-content">
+        <form method="post" action="http://54.251.28.247/main/registration" autocomplete="off">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <img src="http://54.251.28.247/assets/images/icon-feather-user.png" height="17px" />
+                </div>
+              </div>
+              <input type="text" class="form-control" name="_name" placeholder="Nama Lengkap" value="" pattern=".{3,}"
+                title="3 characters minimum" required />
+            </div>
+            <div class="error-form">
+            </div>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <img src="http://54.251.28.247/assets/images/icon-simple-email.png" height="17px" />
+                </div>
+              </div>
+              <input type="email" class="form-control" name="_email" placeholder="Email" value="" required />
+            </div>
+            <div class="error-form">
+            </div>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <img src="http://54.251.28.247/assets/images/icon-ionic-ios-call.png" height="17px" /> &nbsp; +62
+                </div>
+              </div>
+              <input type="number" class="form-control" name="_phone" min-length="10" placeholder="Nomor HP" value=""
+                required />
+            </div>
+            <div class="error-form">
+            </div>
+
+            <div class="registration-type">
+              <div align=center>Jenis Pendaftaran</div>
+              <ul>
+                <li>
+                  <label class="radio-tnc">Reguler
+                    <input type="radio" name="_invitation_type" value="Reguler" onChange="showType(this.value)">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                </li>
+                <li>
+                  <label class="radio-tnc">Undangan
+                    <input type="radio" name="_invitation_type" value="Undangan" onChange="showType(this.value)">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-2"></div>
+            <div id="regulers" style="display: none;">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <img src="http://54.251.28.247/assets/images/icon-material-location-on.png" height="17px" />
+                  </div>
+                </div>
+                <input type="text" class="form-control" name="_city" placeholder="Kota Tempat Tinggal"
+                  id="auto-complete" />
+              </div>
+              <div class="padding-10"></div>
+            </div>
+            <div id="invitations" style="display: none;">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <img src="http://54.251.28.247/assets/images/iconUndangan_1.png" height="17px" />
+                  </div>
+                </div>
+                <input type="text" class="form-control" name="_invitation_number" placeholder="Isi Nomor Undangan"
+                  id="invitation_number" />
+              </div>
+              <div class="padding-10"></div>
+            </div>
+            <div class="google-captcha">
+              <div id="googleCaptcha"></div>
+              <input type="hidden" id="googleToken" name="_google_token">
+              <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+              </script>
+            </div>
+
+            <div class="registration-tnc">
+              <div class="row">
+                <div class="col-2">
+                  <label class="checkbox-tnc">
+                    <input type="checkbox" name="_is_agree">
+                    <span class="checkmark"></span>
+                  </label>
+                  <!-- <div class="form-group form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <span class="checkmark"></span>
+                                  </div> -->
+                </div>
+                <div class="col-10 tnc">
+                  Saya setuju mendapatkan informasi properti, produk KPR, serta informasi seputar KPR BCA Expo 2020
+                  dari BCA dan partner BCA.
+                </div>
+              </div>
+            </div>
+
+            <div class="registration-button">
+
+              <input type="submit" name="submit" value="Daftar" />
+              <p></p>
+              <div class="clicked-close"><svg class="i-chevron-bottom" viewBox="0 0 32 32" width="20" height="20"
+                  fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                  <path d="M30 12 L16 24 2 12" /></svg></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+    function showType(values) {
+      if (values == 'Reguler') {
+        document.getElementById("regulers").style.display = "block";
+        document.getElementById("invitations").style.display = "none";
+        $('#auto-complete').attr('required', 'required');
+        $('#invitation_number').removeAttr('required');
+      } else {
+        document.getElementById("invitations").style.display = "block";
+        document.getElementById("regulers").style.display = "none";
+        $('#invitation_number').attr('required', 'required');
+        $('#auto-complete').removeAttr('required');
+      }
+    }
+  </script>
+
+  <script type="text/javascript">
+    $(function () {
+      var data = "http://52.220.208.113/main/show_city";
+      $("#auto-complete").autocomplete({
+        source: data,
+        minLength: 3
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#animate").click(function () {
+        $(".modal-form").toggleClass('clicked');
+        $(this).hide();
+      });
+
+      $('.clicked-close').click(function () {
+        $(".modal-form").removeClass('clicked');
+        $("#animate").show();
+      });
+    });
+  </script>
+
+
+
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
+  <script type="text/javascript">
+    $('.carousel').carousel({
+      interval: 5000,
+      pause: false
+    });
+  </script>
+
+  <!-- Begin Buzz -->
+  <!-- <script src="https://halo-wchat.d-appspecto.com/buzz-expo/buzzwidget.js" id="buzz-script"></script>
+  <style></style>
+  <div class="buzz" id="buzz" style="z-index: 9999 !important;"></div>
+  <div class="buzz-button" id="buzz-button" style="z-index: 9999 !important;"></div> -->
+  <!-- End Buzz -->
+</body>
+
+</html>

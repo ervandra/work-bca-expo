@@ -1,0 +1,12 @@
+#slideshow {float:left; width:951px; height:502px; }
+#slides {position:relative; width:951px; height:502px; list-style:none; padding:0; margin:0; }
+#slide {position:relative; width:951px; height:502px; list-style:none; padding:0; margin:0;}
+#slides li {width:951px; height:502px; }
+#slide li {width:951px; height:502px; }
+#slide li  img{ z-index:-999;}
+	.pagination {padding-top:5px; padding-bottom:5px; z-index:999; list-style:none; width:400px; left:660px; margin-top:-40px; position:absolute;}
+.pagination li {display:block; width:20px;
+	height:1px;
+	float:right; cursor:pointer; padding-top:15px; background-image:url('../images/pagination.png'); background-repeat:no-repeat; z-index:999; position:relative; text-align:center; color:#222}
+.pagination li:hover {background-position:0 -15px;}
+li.current {background-position:0 -15px;}

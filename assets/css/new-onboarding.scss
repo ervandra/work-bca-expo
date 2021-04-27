@@ -1,0 +1,52 @@
+body {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  background: #07aac9;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#07aac9), to(#00496c));
+  background: linear-gradient(to bottom, #07aac9 0%, #00496c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07aac9', endColorstr='#00496c',GradientType=0 );
+  /* IE6-9 */
+}
+
+#onboarding-container {
+  #onboarding-content {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    .onboarding-slider {
+      width: 100%;
+      max-height: 100vh;
+    }
+  }
+  .onboarding-logo {
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    right: 0;
+  }
+}
+.expo-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .slider-text-images {
+    margin-bottom: 20px;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto !important;
+  }
+}

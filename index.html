@@ -1,0 +1,713 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <title>KPR BCA OnlinEXPO 2020</title>
+
+  <!-- load CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css" />
+
+  <!-- add font awesome css for icons -->
+  <link href="assets/css/fontawesome.css" rel="stylesheet" type="text/css" />
+
+  <link href="assets/css/home.css" rel="stylesheet" type="text/css" />
+
+  <!-- ERVAN's NEW CSS : you can copy all the app.css to the home.css or as needed -->
+  <link href="assets/css/app.css" rel="stylesheet" type="text/css" />
+  <link href="/assets/css/new.css" rel="stylesheet" type="text/css" />
+  <!-- also note there is app.scss as the source css, please avoid editing the app.css directly -->
+
+  <!-- Load Javascript -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+
+
+  <!-- Load font -->
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+
+    <!-- SOME HEADER AND MAIN MENU ADJUSTMENT -->
+    <header id="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6 col-md-3">
+            <div class="logo">
+              <img src="assets/images/logo_bca_white.png" alt="BCA" class="logo-white">
+              <img src="assets/images/logo_bca_blue-1.png" alt="BCA" class="logo-blue">
+            </div>
+          </div>
+          <div class="col-6 col-md-9">
+            <div id="mainmenu">
+              <ul>
+                <li class="active"><a href="/home">Home</a></li>
+                <li><a href="">Exhibition Hall</a></li>
+                <li><a href="/event">Live Event</a></li>
+                <li><a href="https://rumahsaya.bca.co.id/#/simulasi" target="_blank">Simulasi KPR</a></li>
+                <li class="last"><a href="https://webform.bca.co.id/KPR/?prev=/KPR/Screening-eForm-KPR" target="_blank"
+                    class="button btn btn-warning">Ajukan KPR</a></li>
+              </ul>
+              <!-- <a href="#" class="btn-logout"><span class="fa fa-sign-out"></span><span class="text">Logout</span></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END SOME HEADER AND MAIN MENU ADJUSTMENT -->
+
+    <!-- ADD MOBILE MENU -->
+    <div class="mobile-menu">
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-home.png" alt=""></span>
+          <span class="text">Home</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-search.png" alt=""></span>
+          <span class="text">Exhibition Hall</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-event.png" alt=""></span>
+          <span class="text">Event</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-simulasi.png" alt=""></span>
+          <span class="text">Simulasi KPR</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#">
+          <span class="icon"><img src="images/menu-eform.png" alt=""></span>
+          <span class="text">E-form</span>
+        </a>
+      </div>
+    </div>
+    <!-- END MOBILE MENU -->
+
+    <!-- START BROKER LANDING PAGE -->
+
+    <div id="banner-home">
+      <div class="banner-home-backgrond" style="
+        background-image: url('images/home.jpg');">
+        <!-- <h1><strong>Selamat datang di<br>KPR BCA OnlinEXPO 2020</strong></h1> -->
+        <div class="logo-expo">
+          <img src="images/logo_expo.png" alt="">
+        </div>
+        <div class="countdown">
+          <h4>09 Sep - 08 Okt 2020</h4>
+          <div class="countdown-timer">
+            <div class="timer-block">
+              <div class="number" id="timer-day">29</div>
+              <div class="text">hari</div>
+            </div>
+            <div class="timer-block">
+              <div class="number" id="timer-hour">17</div>
+              <div class="text">jam</div>
+            </div>
+            <div class="timer-block">
+              <div class="number" id="timer-minute">05</div>
+              <div class="text">menit</div>
+            </div>
+            <div class="timer-block">
+              <div class="number" id="timer-second">11</div>
+              <div class="text">detik</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vendor-slider-container">
+      <div class="container fluid">
+        <div class="row row-fluid">
+          <div class="col-12">
+            <div class="vendor-slider">
+              <img src="http://54.251.28.247/media/developer/7358211_-_Logo_The_Pakubuwono_Development.png"
+                height="40px">
+
+              <img src="http://52.220.208.113/media/developer/901456AWANI_GROUP.png" height="40px">
+              <img src="http://52.220.208.113/media/developer/841159Abdael_nusa_pt-Logo-warna-01.png" height="40px">
+
+              <img src="http://52.220.208.113/media/developer/901456AWANI_GROUP.png" height="40px">
+              <img src="http://52.220.208.113/media/developer/841159Abdael_nusa_pt-Logo-warna-01.png" height="40px">
+
+              <img src="http://52.220.208.113/media/developer/901456AWANI_GROUP.png" height="40px">
+              <img src="http://52.220.208.113/media/developer/841159Abdael_nusa_pt-Logo-warna-01.png" height="40px">
+
+              <img src="http://52.220.208.113/media/developer/901456AWANI_GROUP.png" height="40px">
+              <img src="http://52.220.208.113/media/developer/841159Abdael_nusa_pt-Logo-warna-01.png" height="40px">
+
+              <img src="http://52.220.208.113/media/developer/901456AWANI_GROUP.png" height="40px">
+              <img src="http://52.220.208.113/media/developer/841159Abdael_nusa_pt-Logo-warna-01.png" height="40px">
+
+              <img src="http://52.220.208.113/media/developer/901456AWANI_GROUP.png" height="40px">
+              <img src="http://52.220.208.113/media/developer/841159Abdael_nusa_pt-Logo-warna-01.png" height="40px">
+
+              <img src="http://52.220.208.113/media/developer/901456AWANI_GROUP.png" height="40px">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="promo-slider-container">
+      <div class="promo-slider">
+        <div class="promo-slider-item">
+          <a href="#"><img src="http://52.220.208.113/media/promo/599073slider-home-1.png" /></a>
+        </div>
+        <div class="promo-slider-item">
+          <a href="#"><img src="http://52.220.208.113/media/promo/599073slider-home-1.png" /></a>
+        </div>
+        <div class="promo-slider-item">
+          <a href="#"><img src="http://52.220.208.113/media/promo/599073slider-home-1.png" /></a>
+        </div>
+        <div class="promo-slider-item">
+          <a href="#"><img src="http://52.220.208.113/media/promo/599073slider-home-1.png" /></a>
+        </div>
+        <div class="promo-slider-item">
+          <a href="#"><img src="http://52.220.208.113/media/promo/599073slider-home-1.png" /></a>
+        </div>
+      </div>
+      <div class="text-center">
+        <p><a href="#"><strong>Lihat semua promo</strong></a></p>
+      </div>
+    </div>
+
+    <!-- START OPTIMIZE EXPO EVENTS -->
+    <div class="expo-events sections">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="carousel-slider">
+              <div class="item">
+                <img src="images/banner.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="images/banner.jpg" alt="">
+              </div>
+              <div class="item">
+                <div class="responsive-embed">
+                  <iframe class="yt-player responsive-embed-item" width="560" height="315"
+                    src="https://www.youtube.com/embed/O1ZBPtKygAg?enablejsapi=1" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-6 col-sm-12">
+            <!-- START LIVE EVENT CONTAINER -->
+            <div id="live-event-content" class="block-container">
+              <h3>Jangan sampai terlewat!</h3>
+              <p class="red">Dimulai 2:50:01 jam lagi</p>
+              <div class="block-item">
+                <a href="#"><img src="images/live-event@2x.png"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12">
+            <!-- START NEXT EVENT CONTAINER -->
+            <div id="next-event-content" class="block-container">
+              <h3>Next Events</h3>
+              <p><a href="#">Lihat semua</a></p>
+
+              <div class="row row-cols-2">
+                <div class="col">
+                  <div class="block-item">
+                    <a href="#"><img src="images/next-event@2x.png" alt=""></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="block-item">
+                    <a href="#"><img src="images/next-event@2x.png" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <!-- START NEXT EVENT CONTAINER -->
+            <div id="next-event-content" class="block-container">
+              <h3>Putar ulang sesuka Anda</h3>
+              <p><a href="#">Lihat semua</a></p>
+
+              <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+                <div class="col">
+                  <div class="block-item">
+                    <a href="#"><img src="images/putar-ulang@2x.png" alt=""></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="block-item">
+                    <a href="#"><img src="images/putar-ulang@2x.png" alt=""></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="block-item">
+                    <a href="#"><img src="images/putar-ulang@2x.png" alt=""></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="block-item">
+                    <a href="#"><img src="images/putar-ulang@2x.png" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- START OPTIMIZE CTA 1 -->
+    <div id="cta-kpr">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-4">
+            <div class="cta-kpr-container">
+              <h3>KPR nggak pake repot, hanya di <strong>expo.bca.co.id</strong></h3>
+              <p>Cukup duduk di rumah, kamu bisa simulasi, dan
+                ajukan KPR secara online kapanpun</p>
+              <div class="button-container">
+                <a href="https://webform.bca.co.id/KPR/?prev=/KPR/Screening-eForm-KPR" class="btn btn-warning"
+                  target="_blank" rel="noopener noreferrer">Ajukan KPR</a>
+                <a href="https://rumahsaya.bca.co.id/#/simulasi" class="btn btn-primary" target="_blank"
+                  rel="noopener noreferrer">Simulasi KPR</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- START OPTIMIZE CTA 2 -->
+    <div id="cta-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Konsultasikan KPR Anda</h3>
+            <!-- REVISI 5/9/20, TAMBAHKAN JUSTIFY-CONTENT-CENTER AGAR CENTER ALIGN -->
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-4">
+                <div class="bca-contact">
+                  <h4>Biar BCA yang <br class="hide-for-small" />hubungi Anda</h4>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal"
+                    data-target="#modal-hubungi-saya"><span class="fa fa-phone"></span> Hubungi Saya</a>
+
+                  <!-- Modal -->
+                  <div class="modal" id="modal-hubungi-saya" tabindex="-1" role="dialog"
+                    aria-labelledby="modal-hubungi-saya" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Hubungi Saya</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="#" class="form">
+                            <div class="form-group">
+                              <label for="hubungi-saya-fase">Saya sedang dalam fase... <span
+                                  class="required">*</span></label>
+                              <select name="fase" id="hubungi-saya-fase" class="form-control">
+                                <option value="-1" selected>Pilih salah satu</option>
+                                <option value="1">Opsi 1</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="hubungi-saya-terkait">Saya butuh konsultasi terkait... <span
+                                  class="required">*</span></label>
+                              <select name="terkait" id="hubungi-saya-terkait" class="form-control">
+                                <option value="-1" selected>Pilih salah satu</option>
+                                <option value="1">Opsi 1</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="nama-developer">Nama project developer <span class="required">*</span></label>
+                              <input type="text" name="developer" id="nama-developer" class="form-control"
+                                placeholder="Ketik nama developer" />
+                            </div>
+                            <div class="form-group">
+                              <label for="nama-broker">Nama project broker <span class="required">*</span></label>
+                              <input type="text" name="broker" id="nama-broker" class="form-control"
+                                placeholder="Ketik nama kantor broker" />
+                            </div>
+                            <div class="button-container text-center">
+                              <button type="submit" class="btn btn-primary"><span class="fa fa-phone"></span> Hubungi
+                                Saya</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <div class="bca-contact">
+                  <h4>Atur jadwal video call <br />dengan Tim KPR BCA</h4>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal-video-call"><span
+                      class="fa fa-video-camera"></span> Video Call</a>
+
+                  <!-- Modal -->
+                  <div class="modal" id="modal-video-call" tabindex="-1" role="dialog"
+                    aria-labelledby="modal-video-call" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Video Call</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Book jadwal video call</p>
+                          <div class="row justify-content-center">
+                            <div class="col-sm-12 col-md-8">
+                              <form action="#" class="form" id="form-video-call">
+                                <div class="form-group">
+                                  <label for="video-call-tanggal">Tanggal</label>
+                                  <input type="text" class="form-control datepicker" name="tanggal-video-call">
+                                </div>
+                                <div class="form-group">
+                                  <label for="video-call-jam">Pilih Jam</label>
+                                  <select name="jam-video-call" id="video-call-jam" class="form-control">
+                                    <option value="9am">9am - 10am GMT+7</option>
+                                    <option value="10am">10am - 11am GMT+7</option>
+                                    <option value="11am">11am - 12pm GMT+7</option>
+                                    <option value="12pm" disabled>12pm - 1pm GMT+7</option>
+                                    <option value="13pm">1pm - 2pm GMT+7</option>
+                                    <option value="14pm">2pm - 3pm GMT+7</option>
+                                    <option value="15pm">3pm - 4pm GMT+7</option>
+                                    <option value="16pm">4pm - 5pm GMT+7</option>
+                                  </select>
+                                </div>
+                                <div class="button-container text-center">
+                                  <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal"
+                                    data-target="#modal-konfirmasi-jadwal"><span class="fa fa-video-camera"></span>
+                                    Set
+                                    Jadwal</button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal" id="modal-konfirmasi-jadwal" tabindex="-1" role="dialog"
+                    aria-labelledby="modal-konfirmasi-jadwal" aria-hidden="true">
+                    <div class="modal-dialog modal-sm" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Video Call</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <h6>Konfirmasi Jadwal Video Call</h6>
+                          <div class="row justify-content-center">
+                            <div class="col-sm-12">
+
+                              <p>Jadwal konsultasi melalui video call dipilih pada tanggal <strong>10 September
+                                  2020</strong>, pukul <strong>09:00 WIB</strong></p>
+                              <div class="button-container btn-confirmation text-center">
+                                <button type="submit" class="btn btn-primary btn-sm">Ya</button>
+                                <button type="reset" class="btn btn-danger btn-sm">Tidak</button>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <div class="bca-contact">
+                  <h4>Konsultasi melalui chat <br />(09:00-19:00 WIB)</h4>
+                  <a href="#" class="btn btn-outline-primary"><span class="fa fa-comments"></span> Live Chat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- START OPTIMIZE FOOTER -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3><img src="images/logo-bca-white.png" width="100" /></h3>
+            <div class="row">
+              <div class="col-sm-12 col-md-4">
+                <div class="footer-content">
+                  <p>Menara BCA, Grand Indonesia<br />
+                    Jl. MH Thamrin No. 1 Jakarta 10310</p>
+                  <p><abbr>Telepon</abbr> : (021) 235 88000<br />
+                    <abbr>Fax</abbr> : (021) 235 88300
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-8">
+                <div class="row">
+
+                  <div class="col-sm-12 col-md-4">
+                    <div class="footer-content">
+                      <h4>Social Media</h4>
+                      <ul>
+                        <li>
+                          <a href="https://www.instagram.com/goodlifebca" target="_blank">
+                            <span class="fa fa-instagram"></span>@goodlifebca
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.youtube.com/user/solusiBCA" target="_blank">
+                            <span class="fa fa-youtube-play"></span>Solusi BCA
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-4">
+                    <div class="footer-content">
+                      <h4>Awas Modus</h4>
+                      <ul>
+                        <li><a href="https://www.bca.co.id/id/awasmodus/tips-mengamankan-pin">Tips amankan PIN</a></li>
+                        <li><a
+                            href="https://www.bca.co.id/id/awasmodus/awas-modus-cuma-kamu-yang-boleh-tahu-tiga-data-pribadi-ini">Jaga
+                            data pribadi</a></li>
+                        <li><a
+                            href="https://www.bca.co.id/id/awasmodus/awas-modus-jangan-follow-akun-palsu-sosmed-bca">Akun
+                            palsu BCA</a></li>
+                        <li><a
+                            href="https://www.bca.co.id/id/awasmodus/awas-modus-penipuan-terkini-lakukan-3-hal-ini">Modus
+                            penipuan</a></li>
+                        <li><a href="https://www.bca.co.id/id/awasmodus/tips-menghindari-penipuan-kekinian">Hindari
+                            penipuan</a></li>
+                        <li><a href="https://www.bca.co.id/id/awasmodus/waspadai-bahaya-phishing">Waspadai phising</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-4">
+                    <div class="footer-content">
+                      <h4>Tentang KPR BCA</h4>
+                      <ul>
+                        <li><a href="/about">Profil KPR BCA</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-bottom-content">
+              <ul>
+                <li><span class="image"><img src="assets/images/logo_ojk.png" width="50px" /></span> BCA terdaftar dan
+                  diawasi oleh OJK</li>
+                <li><span class="image"><img src="assets/images/logo-lps.png" width="50px" /></span> BCA merupakan
+                  peserta penjaminan LPS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript">
+    // var tag = document.createElement('script');
+    // tag.id = 'iframe-demo';
+    // tag.src = 'https://www.youtube.com/iframe_api';
+    // var firstScriptTag = document.getElementsByTagName('script')[0];
+    // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // var player;
+    // function onYouTubeIframeAPIReady() {
+    //   var elems1 = document.getElementsByClassName('yt-player');
+    //   for (var i = 0; i < elems1.length; i++) {
+
+    //     player = new YT.Player(elems1[i], {
+    //       events: {
+    //         //'onReady': onPlayerReady,
+    //         'onStateChange': onPlayerStateChange
+    //       }
+    //     });
+    //   }
+    // }
+    // function onPlayerReady(event) {
+
+    // }
+    // function handleVideo(playerStatus) {
+    //   if (playerStatus == -1) {
+    //     // unstarted
+    //     $('.carousel-slider').slick('slickPause');
+    //   } else if (playerStatus == 0) {
+    //     // ended
+    //     $('.carousel-slider').slick('slickPlay');
+
+    //   } else if (playerStatus == 1) {
+    //     // playing = green
+    //     $('.carousel-slider').slick('slickPause');
+    //   } else if (playerStatus == 2) {
+    //     // paused = red
+    //     $('.carousel-slider').slick('slickPlay');
+    //   } else if (playerStatus == 3) {
+    //     // buffering = purple
+    //   } else if (playerStatus == 5) {
+    //     // video cued
+    //   }
+    // }
+    // function onPlayerStateChange(event) {
+    //   handleVideo(event.data);
+    // }
+    $(document).on('ready', function () {
+      $('.vendor-slider').slick({
+        dots: false,
+        autoplay: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 5,
+        cssEase: 'linear',
+        speed: 3000,
+        useCss: true,
+        autoplaySpeed: 1,
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 4
+            }
+          }
+        ]
+      })
+      $('.promo-slider').slick({
+        dots: true,
+        autoplay: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: '25%',
+        speed: 1000,
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              centerPadding: '30px'
+            }
+          }
+        ]
+      })
+      $('#main-slider').slick({
+        dots: false,
+        arrows: true,
+        slidesToShow: 1,
+        prevArrow: '.btn-prev',
+        nextArrow: '.btn-next',
+      });
+      $('.carousel-slider').slick({
+        autoplay: true,
+        dots: true,
+        arrows: true,
+        slidesToShow: 1,
+        autoplaySpeed: 3000,
+        pauseOnFocus: true,
+        pauseOnHover: true,
+        adaptiveHeight: true,
+      })
+
+      // timer function
+
+      var countDownDate = new Date("Oct 8, 2021 00:00:00").getTime();
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("timer-day").innerHTML = days;
+        document.getElementById("timer-hour").innerHTML = hours;
+        document.getElementById("timer-minute").innerHTML = minutes;
+        document.getElementById("timer-second").innerHTML = seconds;
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+    });
+  </script>
+  <!-- Begin Buzz -->
+  <!-- <script src="https://halo-wchat.d-appspecto.com/buzz-expo/buzzwidget.js" id="buzz-script"></script>
+  <style></style>
+  <div class="buzz" id="buzz" style="z-index: 9999 !important;"></div>
+  <div class="buzz-button" id="buzz-button" style="z-index: 9999 !important;"></div> -->
+  <!-- End Buzz -->
+</body>
+
+</html>
